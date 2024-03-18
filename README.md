@@ -10,6 +10,8 @@
 
 ### [Project](https://huiqiang-sun.github.io/dyblurf) | [Paper](https://arxiv.org/abs/2403.10103) | [Video](https://huiqiang-sun.github.io/dyblurf) | [Supp](https://arxiv.org/abs/2403.10103)
 
+![Teaser image](assets/fig1.png)
+
 Coming soon!
 
 # Citation
