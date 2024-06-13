@@ -1,0 +1,23 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+# *.json
+*.jsonl
+images/*
+
+# Editor
+.idea
+*.swp
+.github
+.vscode
+models/weights/*
+
+# Other
+.DS_Store
+wandb

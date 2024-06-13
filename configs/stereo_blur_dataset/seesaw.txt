@@ -1,0 +1,33 @@
+expname = seesaw
+basedir = ./logs
+datadir = <datapath>/stereo_blur_dataset/seesaw/dense
+
+dataset_type = llff
+deblur_images = 7
+
+pose_lrate = 1e-4
+N_importance = 0
+N_samples = 64
+N_rand = 3000
+num_extra_sample = 2000
+raw_noise_std = 1.0
+use_viewdirs = True
+linear = False
+lindisp = False
+decay_iteration = 25
+chain_sf = True
+decay_depth_w = True
+decay_optical_flow_w = True
+use_motion_mask = True
+
+w_depth = 0.02
+w_optical_flow = 0.01
+w_sm = 0.1
+w_cycle = 1.0
+w_sf_reg = 0.1
+w_prob_reg = 0.1
+
+start_frame = 0
+end_frame = 24
+
+final_height = 288
