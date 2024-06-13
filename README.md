@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 ## Training
 ```
-python train.py --config configs/xxx.txt
+python train.py --config configs/stereo_blur_dataset/xxx.txt
 ```
 
 # Citation
