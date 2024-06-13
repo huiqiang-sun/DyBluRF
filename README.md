@@ -18,8 +18,12 @@ This repository contains the official PyTorch implementation of our CVPR 2024 pa
 ```
 git clone https://github.com/huiqiang-sun/DyBluRF.git
 cd DyBluRF
+conda create -n dyblurf python=3.7
+conda activate dyblurf
 pip install -r requirements.txt
 ```
+## Training
+
 
 # Citation
 If you find our work useful in your research, please consider to cite our paper:
