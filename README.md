@@ -21,6 +21,7 @@ cd DyBluRF
 conda create -n dyblurf python=3.7
 conda activate dyblurf
 pip install -r requirements.txt
+```
 
 ## Dataset
 The dataset consists of 6 dynamic scenes with motion blur. You can download this dataset from this [link](https://drive.google.com/file/d/1atju4_3GGEvAEb7nGNKwjX9c8DN8jWiv/view?usp=drive_link).
@@ -36,7 +37,6 @@ Each scene contains the following contents:
 - `poses_bounds.npy`: camera poses of left blurry images computed by colmap.
 Note: The camera parameters in `poses_bounds.npy` are arranged alternately for left and right cameras according to the time sequence of the video frames.
 
-```
 ## Training
 ```
 python train.py --config configs/stereo_blur_dataset/xxx.txt
