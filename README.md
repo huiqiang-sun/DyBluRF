@@ -35,6 +35,7 @@ Each scene contains the following contents:
 - `sharp_images`: sharp image sequence from left camera.
 - `inference_images`: sharp image sequence from right camera.
 - `poses_bounds.npy`: camera poses of left blurry images computed by colmap.
+
 Note: The camera parameters in `poses_bounds.npy` are arranged alternately for left and right cameras according to the time sequence of the video frames.
 
 ## Training
