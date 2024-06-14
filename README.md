@@ -21,6 +21,21 @@ cd DyBluRF
 conda create -n dyblurf python=3.7
 conda activate dyblurf
 pip install -r requirements.txt
+
+## Dataset
+The dataset consists of 6 dynamic scenes with motion blur. You can download this dataset from this [link](https://drive.google.com/file/d/1atju4_3GGEvAEb7nGNKwjX9c8DN8jWiv/view?usp=drive_link).
+
+Each scene contains the following contents:
+- `images`: blurry image sequence from left camera.
+- `images_xxx`: resized blurry images from left camera.
+- `disp`: depth map of the blurry images.
+- `flow_i1`: optical flow of the blurry images.
+- `motion_masks`: coarse motion mask of the blurry images.
+- `sharp_images`: sharp image sequence from left camera.
+- `inference_images`: sharp image sequence from right camera.
+- `poses_bounds.npy`: camera poses of left blurry images computed by colmap.
+Note: The camera parameters in `poses_bounds.npy` are arranged alternately for left and right cameras according to the time sequence of the video frames.
+
 ```
 ## Training
 ```
